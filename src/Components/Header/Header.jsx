@@ -13,7 +13,7 @@ const Header = () => {
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
-                                    <img src="https://th.bing.com/th/id/OIP.VTvFhMknsUUHdluKqJkKCwHaHa?pid=ImgDet&w=512&h=512&rs=1" />
+                                    <img src="https://th.bing.com/th/id/OIP.VTvFhMknsUUHdluKqJkKCwHaHa?pid=ImgDet&w=512&h=512&rs" />
                                 </div>
                             </label>
                             <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
