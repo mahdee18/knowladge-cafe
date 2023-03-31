@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css'
 
 const Header = () => {
     return (
@@ -16,16 +15,6 @@ const Header = () => {
                                     <img src="https://th.bing.com/th/id/OIP.VTvFhMknsUUHdluKqJkKCwHaHa?pid=ImgDet&w=512&h=512&rs" />
                                 </div>
                             </label>
-                            <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
-                                <li>
-                                    <a className="justify-between">
-                                        Profile
-                                        <span className="badge">New</span>
-                                    </a>
-                                </li>
-                                <li><a>Settings</a></li>
-                                <li><a>Logout</a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>

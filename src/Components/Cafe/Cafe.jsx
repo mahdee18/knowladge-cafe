@@ -6,6 +6,7 @@ const Cafe = () => {
     const [cards, setCards] = useState([])
 
     const [cardItem, setCardItem] = useState([])
+    
     const [bookmarkedTitle, setBookmarkedTitle] = useState([])
 
     useEffect(() => {
