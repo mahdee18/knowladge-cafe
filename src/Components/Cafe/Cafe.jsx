@@ -10,7 +10,7 @@ const Cafe = () => {
     const [bookmarkedTitle, setBookmarkedTitle] = useState([])
 
     useEffect(() => {
-        fetch('/public/KnowladgeCafe.json')
+        fetch('KnowladgeCafe.json')
             .then(res => res.json())
             .then(data => setCards(data))
     }, [])
