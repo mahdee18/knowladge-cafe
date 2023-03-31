@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "authorName": "Mr. Raju",
+    "publishDate": "Mar 14 (4 Days ago)",
+    "title": "The Benefits of React",
+    "blogImage": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "authorImage": "https://yt3.ggpht.com/a/AATXAJxHE-tseqcFtOEtcEL5hx78N1P7ikwY59Nrww=s900-c-k-c0xffffffff-no-rj-mo",
+    "readTime": "5 min read"
+  },
+  {
+    "id": 2,
+    "authorName": "Mrs. Setara",
+    "publishDate": "Mar 14 (4 Days ago)",
+    "title": "Effective Code Review Techniques for Modern Software Development",
+    "blogImage": "https://raw-space.co.uk/wp-content/uploads/2018/07/virtual-office-services.png",
+    "authorImage": "https://academics.gsb.columbia.edu/sites/academics/files-efs/styles/default_fallback_image/public/person/photos/Tomas%20Mondino%20-%20profile_pic.gif?itok=xZHhzqhq",
+    "readTime": "10 min read"
+  },
+  {
+    "id": 3,
+    "authorName": "Mina Mostofa",
+    "publishDate": "Mar 14 (4 Days ago)",
+    "title": "Enhancing Your Knowledge Cafe with AI and Machine Learning",
+    "blogImage": "https://external-preview.redd.it/HEL61iSqzqYVhkn6FQuacb8wIhOxQKkXRjpTXbCQIpE.jpg?auto=webp&s=5d17584f60be338e62dc6ec2aedc4e58dc44bece",
+    "authorImage": "https://cdn.mdedge.com/files/s3fs-public/Simon_David_GERMANY_web.JPG",
+    "readTime": "4 min read"
+  },
+  {
+    "id": 4,
+    "authorName": "Alice Johnson",
+    "title": "Maximizing the Potential of Your Knowledge Cafe with Blockchain Technology",
+    "blogImage": "https://i0.wp.com/iot.do/wp-content/uploads/sites/2/2017/12/GettyImages-701167058.jpg?fit=2309%2C1299&ssl=1",
+    "authorImage": "https://th.bing.com/th/id/OIP.Y6cP81jRU2MsZSHoIM7aYQHaLI?pid=ImgDet&rs=1",
+    "readTime": "6 min read",
+    "publishDate": "April 2, 2023"
+  }
+]
