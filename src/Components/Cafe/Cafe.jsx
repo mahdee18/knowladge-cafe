@@ -27,16 +27,18 @@ const Cafe = () => {
                     cards.map(card => <Card key={card.id} card={card} handleToAddBookmark={handleToAddBookmark}></Card>)
                 }
             </div>
-            <div className="bookmark-container mt-16 lg:mt-0 lg:ml-6 lg:w-2/5 xl:w-1/3 mx-auto">
+            <div className="bookmark-container pt-16 lg:mt-0 lg:ml-6 lg:w-2/5 xl:w-1/3 mx-auto">
                 <div className="bookmark-header text-center text-3xl font-bold">
-                <h1>Spent time on read :</h1>
-                <h2>Bookmarked Blogs : {cardItem.length}</h2>
+                <h1 className='bg-gray-300 border border-purple-700 text-purple-700 rounded p-7'>Spent time on read :</h1>
                 </div>
-                <ul>
+                <div className="blogs rounded mt-11 p-7 bg-orange-100">
+                <h2 className='text-3xl font-bold '>Bookmarked Blogs : {cardItem.length}</h2>
+                <ul >
                     {bookmarkedTitle.map((title) => (
-                        <li key={title}>{title}</li>
+                        <li className='bg-white px-3 py-5 rounded m-5 text-xl font-sans' key={title}>{title}</li>
                     ))}
                 </ul>
+                </div>
             </div>
         </div>
     );
