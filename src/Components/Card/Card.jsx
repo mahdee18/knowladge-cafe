@@ -11,6 +11,8 @@ const Card = (props) => {
   
   const handleToAddBookmark = props.handleToAddBookmark;
 
+  const handleMarkAsRead= props.handleMarkAsRead;
+
   return (
     <div>
       <div className="card mt-16">
@@ -28,13 +30,13 @@ const Card = (props) => {
                 </div>
               </div>
               <div className="bookmark">
-                <p>{readTime} <button onClick={()=>handleToAddBookmark(props.card)}><FontAwesomeIcon icon={faBookmark} /></button> </p>
+                <p>{readTime} min read <button onClick={()=>handleToAddBookmark(props.card)}><FontAwesomeIcon icon={faBookmark} /></button> </p>
               </div>
             </div>
             <h2 className="card-title text-3xl">{title}</h2>
-            <h5 className='underline text-blue-700 font-semibold'>
-            <a href="">Mark as read</a>
-            </h5>
+            <span className='text-blue-700 font-semibold'>
+            <button className='underline' onClick={()=>handleMarkAsRead(props.card)}>Mark as read</button>
+            </span>
           </div>
         </div>
       </div>
