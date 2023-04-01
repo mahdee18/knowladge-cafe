@@ -12,9 +12,10 @@ const Header = () => {
                         <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
-                                    <img src="https://th.bing.com/th/id/OIP.VTvFhMknsUUHdluKqJkKCwHaHa?pid=ImgDet&w=512&h=512&rs" />
+                                    <img src="https://th.bing.com/th/id/OIP.LKfBb02xsgMft8gcXY16IwHaHa?pid=ImgDet&w=500&h=500&rs=1" />
                                 </div>
                             </label>
+
                         </div>
                     </div>
                 </div>

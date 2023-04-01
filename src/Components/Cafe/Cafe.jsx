@@ -39,16 +39,16 @@ const Cafe = () => {
         }
       </div>
       <div className="bookmark-container pt-16 lg:mt-0 lg:ml-6 lg:w-2/5 xl:w-1/3 mx-auto">
-        <div className="bookmark-header text-center text-3xl font-bold">
+        <div className="bookmark-header text-center text-xl font-bold">
           <h1 className='bg-gray-300 border border-purple-700 text-purple-700 rounded p-7'>
             Spent time on read: {totalSpentTime} min
           </h1>
         </div>
-        <div className="blogs rounded mt-11 p-7 bg-orange-100">
+        <div className="blogs rounded mt-11 py-7 text-center bg-orange-100">
           <h2 className='text-2xl font-bold '>Bookmarked Blogs : {cardItem.length}</h2>
           <ul >
             {bookmarkedTitles.map((title) => (
-              <li className='bg-white px-3 py-5 rounded m-5 text-xl font-sans' key={title}>{title}</li>
+              <li className='bg-white px-1 py-5 rounded m-5 text-xl font-sans' key={title}>{title}</li>
             ))}
           </ul>
         </div>
