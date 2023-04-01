@@ -30,7 +30,7 @@ const Card = (props) => {
                 </div>
               </div>
               <div className="bookmark">
-                <p>{readTime} min read <button onClick={()=>handleToAddBookmark(props.card)}><FontAwesomeIcon icon={faBookmark} /></button> </p>
+                <p>{readTime} min read <button onClick={()=>handleToAddBookmark(props.card)}> <FontAwesomeIcon className='text-2xl' icon={faBookmark} /></button> </p>
               </div>
             </div>
             <h2 className="card-title text-3xl">{title}</h2>
