@@ -19,9 +19,9 @@ const Cafe = () => {
       // Show toast message if card is already bookmarked
       toast.error('Card is already bookmarked!');
     } else {
-        // Add card to card items and title to bookmarked titles
-        setCardItem([...cardItem, card]);
-        setBookmarkedTitles([...bookmarkedTitles, card.title]);
+      // Add card to card items and title to bookmarked titles
+      setCardItem([...cardItem, card]);
+      setBookmarkedTitles([...bookmarkedTitles, card.title]);
     }
   };
 
