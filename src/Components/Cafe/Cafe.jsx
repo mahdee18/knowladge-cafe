@@ -4,8 +4,11 @@ import Card from '../Card/Card';
 
 const Cafe = () => {
   const [cards, setCards] = useState([]);
+
   const [cardItem, setCardItem] = useState([]);
+
   const [bookmarkedTitles, setBookmarkedTitles] = useState([]);
+
   const [time, setTime] = useState([]);
 
   useEffect(() => {
@@ -38,6 +41,8 @@ const Cafe = () => {
           cards.map(card => <Card key={card.id} card={card} handleToAddBookmark={handleToAddBookmark} handleMarkAsRead={handleMarkAsRead}></Card>)
         }
       </div>
+
+      {/* For Bookmarked Container */}
       <div className="bookmark-container pt-16 lg:mt-0 lg:ml-6 lg:w-2/5 xl:w-1/3 mx-auto">
         <div className="bookmark-header text-center text-xl font-bold">
           <h1 className='bg-gray-300 border border-purple-700 text-purple-700 rounded p-7'>
